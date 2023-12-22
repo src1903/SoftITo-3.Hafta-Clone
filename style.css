@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #273243;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.header {
+    background-color: #22af8d;
+    width: 100%;
+    height: 72px;
+}
+.navbar {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    padding: 15px 0;
+}
+
+.logo{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.social i {
+    width: 36px;
+    height: 36px;
+    margin-right: 2px;
+    color: #038B73;
+    background-color: #22af8d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.search input {
+    position: relative;
+    background-color: #038B73;
+    border: none;
+    outline: none;
+}
+
+.search i {
+    position: absolute;
+    right: 330px;
+    color: #22af8d;
+}
+.research {
+    height: 24px;
+
+}
+.fa-solid {
+    color:black ;
+}
+
+/* SECTION PART */
+
+.container {
+    margin: 50px auto 40px auto;
+    max-width: 1140px;
+}
+
+.section{
+    background-color: #52647A;
+    height: 92px;
+}
+
+.section-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    color: #ffffe3;
+}
+
+.section-list li {
+    padding: 34.5px 36px;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    border: 1px solid #4b5d73;
+}
+
+.carousel {
+    background-image: url("./img/woman.jpg");
+
+    /* opacity: .7; */
+    height: 490px;
+    background-position: center;
+    background-size: cover;
+    background-color: #22af8d;
+}
+
+.carousel-gradient {
+    background: linear-gradient( to right,rgba(126, 220, 187, 0.12), rgba(12, 139, 50, 0.7)) ;
+    width: 100%;
+    height: 490px;
+}
+
+.carousel-content {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 300px ;
+}
+
+.carousel h1,.carousel h3,.carousel h4,.carousel button {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.carousel button{
+    background-color: #fff;
+    color: #29b598;
+    border: none;
+    padding: 14px 10px;
+    border-radius: 5px;
+}
+
+.crew {
+    background-color: #38475a;
+    width: 100%;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+}
+
+.crew-head {
+    margin: 64px auto 36px auto;
+    text-align: center;
+}
+
+.crew-head h3 {
+    color: #24b18e;
+}
+
+.crew-head p {
+    color: #7d7c82;
+}
+
+.line {
+    position: absolute;
+    z-index: 1;
+    width: 60px;
+    height: 2px;
+    color: #fff;
+}
+
+.crew-people {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.card {
+    margin: 0 22px;
+}
+
+.card h3 {
+    color:#85dcb2;
+}
+
+.card p {
+    color: #89889a;
+}
+.card img{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
+
+.articles {
+    height: 330px;
+    background-color: #fff;
+    width: 100%;
+}
+
+.articles-parts{
+    padding: 60px 17px 56px 17px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.articles-part {
+    margin: 0 33px;
+    width: 25%;
+}
+
+.article-header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.article-head {
+    padding: 0 0 5px 4px;
+    font-size: 11px;
+}
+
+.article-icon {
+    width: 40px;
+    height: 40px;
+}
+.article-icon i {
+    background-color: #22af8d;
+    padding: 9px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.article-button, .content-card-button, .comments-form-button{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 70px;
+    background-color: #22af8d;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.article-button button, .content-card-button button, .comments-form-button button {
+    background: transparent;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding-right: 12px ;
+    font-size: 15px;
+}
+
+.article-button i , .content-card-button i, .comments-form-button i{
+    position: absolute;
+    left: 50px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.comments {
+    height: 570px;
+    background-color: #38475a;
+}
+
+.comments-content {
+    padding: 60px 20px 60px 15px;
+    display: flex;
+}
+
+.comments-form-header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.comments-form-head {
+    padding: 0 0 5px 4px;
+    font-size: 11px;
+}
+
+.comments-form-icon {
+    width: 40px;
+    height: 40px;
+}
+.comments-form-icon i {
+    background-color: #22af8d;
+    padding: 9px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.content-cards {
+    width: 730px;
+}
+.content-card {
+    display: flex;
+    margin: 30px;
+}
+
+.content-card-desc{
+    margin-left: 20px;
+}
+
+.content-card-img img{
+    width: 200px;
+    height: 180px;
+    border-radius: 8px;
+}
+.comments-form {
+    margin-left: 30px;
+}
+.comments-form-forms {
+    display: flex;
+    flex-direction: column;
+}
+
+.comments-form-forms input, .comments-form-forms textarea {
+    background-color: #314151;
+    border: 3px solid #435265;
+    outline: none;
+    margin-bottom: 24px;
+    height: 36px;
+
+}
+/* FOOTER */
+
+.footer-top{
+    height: 310px;
+    background-color: #22af8d;
+}
+
+.footer-cards{
+    width: 1140px;
+    display: flex;
+    margin: 65px auto 70px auto;
+    padding-top: 64px;
+}
+
+.footer-card {
+    width: 165px;
+    color: #fff;
+    margin-right: 30px;
+}
+
+.footer-card p{
+    padding: 14px 0 ;
+}
+
+.footer-bottom {
+    height: 120px;
+    background-color: #038b73;
+}
+
+.footer-bottom p{
+    color: #fff;
+    text-align: center;
+    padding-top: 42px;
+    text-align: center;
+}
